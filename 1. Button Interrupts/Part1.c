@@ -4,6 +4,10 @@
  *  Created on: Feb 11, 2023
  *      Author: Russell Trafford
  *
+ *  Modified on: Feb 14, 2023
+ *      Author: Isaiah Roepke
+ *
+ *
  *  This code is a template which will change the color of the LED being blinked using the interrupt routine.
  */
 

@@ -4,6 +4,9 @@
  *  Created on: Feb 11, 2023
  *      Author: Russell Trafford
  *
+ *  Modified on: Feb 18, 2023
+ *      Author: Isaiah Roepke
+ *
  *      This code will need to change the speed of an LED between 3 different speeds by pressing a button.
  */
 

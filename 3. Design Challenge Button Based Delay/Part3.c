@@ -1,8 +1,8 @@
 /*
  * Part3.c
  *
- *  Created on: Feb 12, 2023
- *      Author: FILL THIS IN
+ *  Created on: Feb 18, 2023
+ *      Author: Isaiah Roepke
  *
  *      YOU NEED TO FILL IN THIS AUTHOR BLOCK
  */
@@ -25,7 +25,7 @@ int main(void){
     PM5CTL0 &= ~LOCKLPM5; // Disable the GPIO power-on default high-impedance mode to activate previously configured port settings
 
 
-    __bis_SR_register(GIE); // Enter LPM3 w/interrupt
+    ; // Enter LPM3 w/interrupt
 
     while(1){
         if (timerstate == 0x00){ //if the timer state is in the initial state
