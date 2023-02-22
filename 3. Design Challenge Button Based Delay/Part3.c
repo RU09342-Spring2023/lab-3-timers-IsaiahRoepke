@@ -25,7 +25,7 @@ int main(void){
     PM5CTL0 &= ~LOCKLPM5; // Disable the GPIO power-on default high-impedance mode to activate previously configured port settings
 
 
-    ; // Enter LPM3 w/interrupt
+    __bis_SR_register(GIE); // Enter LPM3 w/interrupt
 
     while(1){
         if (timerstate == 0x00){ //if the timer state is in the initial state
